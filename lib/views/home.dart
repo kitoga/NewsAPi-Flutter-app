@@ -1,10 +1,10 @@
-import 'package:api_data/helper/data.dart';
-import 'package:api_data/helper/news.dart';
-import 'package:api_data/model/articles_models.dart';
-import 'package:api_data/model/category_model.dart';
-import 'package:api_data/views/article_view.dart';
 import 'package:flutter/material.dart';
 import 'package:cached_network_image/cached_network_image.dart';
+import 'package:flutter_Api/helper/data.dart';
+import 'package:flutter_Api/helper/news.dart';
+import 'package:flutter_Api/model/articles_models.dart';
+import 'package:flutter_Api/model/category_model.dart';
+import 'package:flutter_Api/views/article_view.dart';
 
 class Home extends StatefulWidget {
   Home({Key key}) : super(key: key);
